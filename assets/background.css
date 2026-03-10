@@ -1,0 +1,52 @@
+QWidget {
+    background-color: rgb(20, 20, 40); /* dark navy background */
+    
+}
+.bubble {
+    background-color: rgb(240, 240, 255); /* light bubble background */
+    border: 2px solid white;
+    border-radius: 30px; /* high value for pill shape */
+    padding: 20px;
+}
+QTableWidget{
+    background-color:azure;
+}
+QComboBox{
+    background-color:azure;
+}
+QLabel {
+    font-size: 16px;
+    color: white;
+}
+QLabel#DisplayName{
+    font-size: 50px;
+    color: white;
+}
+
+QListView {
+    font-size: 25px;
+    background-color: rgb(245, 245, 220); /* light yellow/beige */
+    color: navy;
+}
+
+QLineEdit, QDateEdit, QTimeEdit {
+    background-color: white;
+    color: navy;
+}
+
+QPushButton {
+    font-size: 16px;
+    background-color: rgb(25, 25, 80); /* navy */
+    color: white;
+    border: 2px solid rgb(246, 246, 246); /* yellow */
+    border-radius: 20px; /* half of width/height */
+    width: 40px;
+    height: 40px;
+    padding: 0px; /* ensures content is centered in small circle */
+}
+
+
+QPushButton:hover {
+    background-color: rgb(255, 230, 0); /* yellow on hover */
+    color: navy;
+}
